@@ -18,12 +18,11 @@ int _strlen(char *str)
 }
 
 /**
- * _strlenco - strlen for constant pointer to str
- * @str: char pointer
- *
- * Return:- j
- */
-
+*_strlenco - strlen for constant pointer to str
+*@str: char pointer
+*
+*Return:- j
+*/
 int _strlenco(const char *str)
 {
 	int j;

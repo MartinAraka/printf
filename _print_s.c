@@ -7,7 +7,7 @@
  * Return: number of characters
  */
 
-int printf_string(va_list, fig)
+int printf_string(va_list fig)
 {
 	char *str;
 	int i;
@@ -30,5 +30,5 @@ int printf_string(va_list, fig)
 			write(1, str, strlen[i]);
 		return (length);
 	}
-	
+
 }
