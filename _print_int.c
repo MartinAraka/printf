@@ -36,7 +36,7 @@ int print_d(va_list inp)
 			num_d = inp_num / p;
 			_putchar(num_d + '0');
 			inp_num = inp_num - (num_d * p);
-			exp = exp / 10;
+			p = p / 10;
 			x++;
 		}
 	}

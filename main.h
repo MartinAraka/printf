@@ -4,6 +4,12 @@
 #include <string.h>
 #include <unistd.h>
 
+typedef struct format
+{
+	char *in;
+	int (*u)();
+}match;
+
 int _putchar(char c);
 int _printf(const char *format, ...);
 int printf_char(va_list fig);
