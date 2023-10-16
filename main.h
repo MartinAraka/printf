@@ -3,12 +3,15 @@
 #include <stdarg.h>
 #include <string.h>
 #include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 
 typedef struct format
 {
 	char *in;
 	int (*u)();
-} match;
+} check;
 
 int _putchar(char c);
 int _printf(const char *format, ...);
