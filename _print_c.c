@@ -2,16 +2,16 @@
 
 /**
  * printf_char - prints a character
- * @fig: va_list containing character to print
+ * @var: arguement list
  *
  * Return: Number of characters to be printed
  */
 
-int printf_char(va_list fig)
+int printf_char(va_list var)
 {
 	char str;
 
-	str = va_arg(fig, int);
+	str = va_arg(var, int);
 	write(1, &str, 1);
 
 	return (1);
