@@ -23,7 +23,7 @@ int print_bin(va_list var)
 		if (flag)
 		{
 			l = p >> (31 - j);
-			_putchar(l + '0');
+			_putchar(l + 48);
 			cont++;
 		}
 	}
