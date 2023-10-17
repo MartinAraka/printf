@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 	check c[] = {
 		{"%c", printf_char}, {"%%", print_perc},
 		{"%d", print_dec}, {"%s", printf_string},
-		{"%i", print_d}
+		{"%i", print_d}, {"%b", print_bin}
 	};
 
 	va_list inp;
