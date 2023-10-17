@@ -23,6 +23,7 @@ int print_perc(void);
 int print_d(va_list inp);
 int print_dec(va_list inp);
 int print_bin(va_list var);
+int print_unsigned(va_list inp);
 
 
 #endif
