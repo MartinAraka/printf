@@ -27,7 +27,7 @@ int _printf(const char *format, ...)
 Here:
 	while (format[x] != '\0')
 	{
-		y = 5;
+		y = 9;
 		while (y >= 0)
 		{
 			if (c[y].in[0] == format[x] && c[y].in[1] == format[x + 1])
