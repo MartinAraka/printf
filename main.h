@@ -27,6 +27,8 @@ int print_unsigned(va_list inp);
 int print_oct(va_list var);
 int print_hex(va_list var);
 int print_HEX(va_list var);
+int print_e_string(va_list var);
+int print_e_HEX(unsigned int var);
 
 
 #endif

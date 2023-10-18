@@ -14,7 +14,8 @@ int _printf(const char *format, ...)
 		{"%c", printf_char}, {"%%", print_perc},
 		{"%d", print_dec}, {"%s", printf_string},
 		{"%i", print_d}, {"%b", print_bin}, {"%u", print_unsigned},
-	       	{"%o", print_oct}, {"%x", print_hex}, {"%X", print_HEX}
+	       	{"%o", print_oct}, {"%x", print_hex}, {"%X", print_HEX},
+		{"%S", print_e_string}
 	};
 
 	va_list inp;
