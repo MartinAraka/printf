@@ -7,7 +7,7 @@
  * Return: integer
  */
 
-int print_bin(va_list var)
+int printf_bin(va_list var)
 {
 	int flag = 0;
 	int cont = 0;

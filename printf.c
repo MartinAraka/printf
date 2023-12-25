@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *_printf - print the character
@@ -14,7 +15,7 @@ int _printf(const char *format, ...)
 		{"%c", printf_char}, {"%%", print_perc},
 		{"%d", print_dec}, {"%s", printf_string},
 		{"%i", print_d}, {"%b", print_bin}, {"%u", print_unsigned},
-	       	{"%o", print_oct}, {"%x", print_hex}, {"%X", print_HEX}
+		{"%o", print_oct}, {"%x", print_hex}, {"%X", print_HEX}
 	};
 
 	va_list inp;
