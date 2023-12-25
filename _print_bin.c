@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_bin - function that converts to binary
+ * printf_bin - function that converts to binary
  * @var: arguement list
  *
  * Return: integer
